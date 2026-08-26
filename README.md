@@ -6,12 +6,12 @@ Juego incremental (estilo Cookie Clicker) hecho en Unity, donde el jugador cuida
 
 | Nombre | Rol / Área a cargo | Contacto |
 |---|---|---|
-| _Nombre 1_ | Programación - Sistema de economía/mates | |
-| _Nombre 2_ | Programación - UI/UX y menús | |
-| _Nombre 3_ | Arte/Assets - Perros, animaciones, escenas | |
-| _Nombre 4_ | Diseño de juego / QA - Balance, testing | |
+| Guille | Programación - Sistema de economía| |
+| Guille | Programación - UI/UX y menús | |
+| TODOS | Arte/Assets - Perros, animaciones, escenas | |
+| TODOS | Diseño de juego / QA - Balance, testing | |
 
-> Reemplazar con los nombres reales y ajustar roles según se vayan definiendo.
+
 
 ## 📌 Estado del proyecto
 
@@ -64,6 +64,4 @@ refactor: reordenar scripts de UI
 - Unity versión: `____` (completar con la versión exacta del proyecto)
 - Git LFS instalado: `git lfs install`
 
-## 📋 Tablero de tareas
 
-_(Opcional: link a Trello / GitHub Projects / Notion donde se organicen las tareas del equipo)_
