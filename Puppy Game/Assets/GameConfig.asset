@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b27202e27d5eb964ab0d36c8bb9d4591, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::GameConfig
+  costoBaseInicial: 10
+  costoMultiplicadorTier: 50
+  produccionBaseInicial: 1
+  produccionMultiplicadorTier: 7
+  multiplicadorInicial: 1.5
+  multiplicadorDecremento: 0.05
+  multiplicadorPiso: 1.1
+  clicksParaPaseo: 50
+  dineroPorTierEnPaseo: 5
+  dineroPasivoPorTier: 0.1
+  costoMejoraBase: 100
+  costoMejoraMultiplicador: 2.2
+  nivelMaximoMejora: 20
+  mejoras:
+  - nombre: "Comida (Peque\xF1o)"
+    descripcion: "Mejor alimento para razas peque\xF1as."
+    tamanoObjetivo: 0
+    porcentajePorNivel: 0.1
+  - nombre: "Correa (Peque\xF1o)"
+    descripcion: "Correas m\xE1s livianas para razas peque\xF1as."
+    tamanoObjetivo: 0
+    porcentajePorNivel: 0.1
+  - nombre: "Collar (Peque\xF1o)"
+    descripcion: "Collares c\xF3modos para razas peque\xF1as."
+    tamanoObjetivo: 0
+    porcentajePorNivel: 0.1
+  renacerRequisitoBase: 100
+  renacerRequisitoMultiplicador: 1.5
+  renacerBonoBaseFlat: 1
+  renacerBonoMultiplicadorGlobal: 0.5
+  perros:
+  - nombre: Pug
+    imagen: {fileID: 8957324059118975939, guid: ffe718276b0352643a5494e53513c4af, type: 3}
+    tamano: 0
+    bibliografia: 
+  - nombre: Chihuahua
+    imagen: {fileID: 0}
+    tamano: 0
+    bibliografia: 
+  - nombre: Yorkshire
+    imagen: {fileID: 0}
+    tamano: 0
+    bibliografia: 
+  - nombre: Toy Poodle
+    imagen: {fileID: 0}
+    tamano: 0
+    bibliografia: 
+  - nombre: Corgi
+    imagen: {fileID: 0}
+    tamano: 0
+    bibliografia: 
+  - nombre: Beagle
+    imagen: {fileID: 0}
+    tamano: 0
+    bibliografia: 
+  - nombre: Border Collie
+    imagen: {fileID: 0}
+    tamano: 0
+    bibliografia: 
+  - nombre: Labrador
+    imagen: {fileID: 0}
+    tamano: 0
+    bibliografia: 
+  - nombre: "Pastor Alem\xE1n"
+    imagen: {fileID: 0}
+    tamano: 0
+    bibliografia: 
+  - nombre: Golden Retriever
+    imagen: {fileID: 0}
+    tamano: 0
+    bibliografia: 
+  - nombre: Nano
+    imagen: {fileID: 0}
+    tamano: 0
+    bibliografia: 
