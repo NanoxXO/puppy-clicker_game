@@ -1,2 +1,37 @@
 fileFormatVersion: 2
 guid: 20a841d6707a6024d9c386f8f85bade8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - textoReputacion: {instanceID: 0}
+  - textoDinero: {instanceID: 0}
+  - textoProduccion: {instanceID: 0}
+  - textoDineroPorSegundo: {instanceID: 0}
+  - medidorPaseo: {instanceID: 0}
+  - contenedorBotonesPerro: {instanceID: 0}
+  - prefabBotonPerro: {fileID: 3450378235043688325, guid: 637a717d18a3f3540bef5a35a80c68ac, type: 3}
+  - contenedorBotonesMejora: {instanceID: 0}
+  - prefabBotonMejora: {instanceID: 0}
+  - capaTooltips: {instanceID: 0}
+  - panelTooltipMejora: {instanceID: 0}
+  - textoNombreTooltipMejora: {instanceID: 0}
+  - textoPrecioTooltipMejora: {instanceID: 0}
+  - textoDescripcionTooltipMejora: {instanceID: 0}
+  - panelTooltipMoneda: {instanceID: 0}
+  - textoNombreTooltipMoneda: {instanceID: 0}
+  - textoValorTooltipMoneda: {instanceID: 0}
+  - skin: {instanceID: 0}
+  - iconoReputacionUI: {instanceID: 0}
+  - iconoDineroUI: {instanceID: 0}
+  - fondoBotonPaseoUI: {instanceID: 0}
+  - fondoMedidorPaseoUI: {instanceID: 0}
+  - rellenoMedidorPaseoUI: {instanceID: 0}
+  - fondoBotonBibliografiaUI: {instanceID: 0}
+  - botonRenacer: {instanceID: 0}
+  - textoRequisitoRenacer: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
