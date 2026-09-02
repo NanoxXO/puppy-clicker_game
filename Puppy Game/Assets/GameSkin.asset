@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 884fb752706adb9489af1958434b679c, type: 3}
   m_Name: GameSkin
   m_EditorClassIdentifier: Assembly-CSharp::GameSkin
-  iconoReputacion: {fileID: 8957324059118975939, guid: ffe718276b0352643a5494e53513c4af, type: 3}
-  iconoDinero: {fileID: 8957324059118975939, guid: ffe718276b0352643a5494e53513c4af, type: 3}
-  fondoBotonPaseo: {fileID: 8957324059118975939, guid: ffe718276b0352643a5494e53513c4af, type: 3}
-  fondoBotonMejora: {fileID: 8957324059118975939, guid: ffe718276b0352643a5494e53513c4af, type: 3}
-  fondoMedidorPaseo: {fileID: 8957324059118975939, guid: ffe718276b0352643a5494e53513c4af, type: 3}
-  rellenoMedidorPaseo: {fileID: 8957324059118975939, guid: ffe718276b0352643a5494e53513c4af, type: 3}
-  fondoBotonBibliografia: {fileID: 8957324059118975939, guid: ffe718276b0352643a5494e53513c4af, type: 3}
+  iconoReputacion: {fileID: 1977048943597964178, guid: d56f7c6f131ef414985db98bbad05154, type: 3}
+  iconoDinero: {fileID: 5488370903067918852, guid: e0f7b55d40c18e94dbe077c737a4442f, type: 3}
+  fondoBotonPaseo: {fileID: -5951985326965060313, guid: bba2a5fc749bb6048ad7b49268a3d823, type: 3}
+  fondoBotonMejora1: {fileID: -8125063950708218916, guid: 9a0fcc0f7e634324bb395acb89ae5a02, type: 3}
+  fondoBotonMejora2: {fileID: 4073519292367093618, guid: 87ec8a0a2d9e96f4b9b9924e33e2f55c, type: 3}
+  fondoBotonMejora3: {fileID: -8418299633776641508, guid: 9c41474e786ad6d40adddffa740119ea, type: 3}
+  fondoMedidorPaseo: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  rellenoMedidorPaseo: {fileID: 7725125049944165330, guid: 46834f37aedcc2d4e8ab0c87824fb7f8, type: 3}
+  fondoBotonBibliografia: {fileID: -7051933360408875947, guid: 5ecc752a1e80a0d40b6f821c7f9a3ef1, type: 3}
