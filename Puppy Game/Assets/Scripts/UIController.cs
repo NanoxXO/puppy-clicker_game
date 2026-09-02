@@ -231,10 +231,22 @@ public class UIController : MonoBehaviour
             GameObject fila = Instantiate(prefabBotonMejora, contenedorBotonesMejora);
 
             // Aplica el fondo del botón de mejora (piel visual), si está cargado
-            if (skin != null && skin.fondoBotonMejora != null)
+            // Cada mejora recibe el fondo correspondiente según su índice (mejora 0, 3, 6... → fondo1; 1, 4, 7... → fondo2; 2, 5, 8... → fondo3)
+            if (skin != null)
             {
                 var fondo = fila.GetComponent<Image>();
-                if (fondo != null) fondo.sprite = skin.fondoBotonMejora;
+                if (fondo != null)
+                {
+                    int indiceImagenMejora = (i % 3) + 1; // Mapea índices: 0,3,6→1  1,4,7→2  2,5,8→3
+                    Sprite spriteAsignado = indiceImagenMejora switch
+                    {
+                        1 => skin.fondoBotonMejora1,
+                        2 => skin.fondoBotonMejora2,
+                        3 => skin.fondoBotonMejora3,
+                        _ => null
+                    };
+                    if (spriteAsignado != null) fondo.sprite = spriteAsignado;
+                }
             }
 
             // Texto corto, siempre visible sobre el botón

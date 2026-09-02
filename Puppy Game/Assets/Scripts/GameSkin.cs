@@ -21,7 +21,9 @@ public class GameSkin : ScriptableObject
 
     [Header("Botón de mejora")]
     [Tooltip("Se aplica a los 3 botones de mejora automáticamente, no hace falta tocar el prefab.")]
-    public Sprite fondoBotonMejora;
+    public Sprite fondoBotonMejora1;
+    public Sprite fondoBotonMejora2;
+    public Sprite fondoBotonMejora3;
 
     [Header("Medidor de paseo (Slider)")]
     public Sprite fondoMedidorPaseo;   // la parte "vacía" del slider

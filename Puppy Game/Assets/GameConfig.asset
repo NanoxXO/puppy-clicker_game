@@ -44,15 +44,15 @@ MonoBehaviour:
   renacerBonoMultiplicadorGlobal: 0.5
   perros:
   - nombre: Pug
-    imagen: {fileID: 8957324059118975939, guid: ffe718276b0352643a5494e53513c4af, type: 3}
+    imagen: {fileID: -5951985326965060313, guid: bba2a5fc749bb6048ad7b49268a3d823, type: 3}
     tamano: 0
     bibliografia: 
   - nombre: Chihuahua
-    imagen: {fileID: 0}
+    imagen: {fileID: -5914473407049519587, guid: b1dcf60cc952c7740b055ea76e61b0c9, type: 3}
     tamano: 0
     bibliografia: 
   - nombre: Yorkshire
-    imagen: {fileID: 0}
+    imagen: {fileID: -1231493199390366446, guid: e432ef8d9eebc8f47942d5dae98b53e0, type: 3}
     tamano: 0
     bibliografia: 
   - nombre: Toy Poodle
