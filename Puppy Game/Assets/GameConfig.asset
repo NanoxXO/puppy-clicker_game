@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: GameConfig
   m_EditorClassIdentifier: Assembly-CSharp::GameConfig
   costoBaseInicial: 10
-  costoMultiplicadorTier: 50
+  costoMultiplicadorTier: 20
   produccionBaseInicial: 1
   produccionMultiplicadorTier: 7
-  multiplicadorInicial: 1.5
+  multiplicadorInicial: 1.3
   multiplicadorDecremento: 0.05
   multiplicadorPiso: 1.1
-  clicksParaPaseo: 50
+  clicksParaPaseo: 25
   dineroPorTierEnPaseo: 5
   dineroPasivoPorTier: 0.1
-  costoMejoraBase: 100
+  costoMejoraBase: 70
   costoMejoraMultiplicador: 2.2
   nivelMaximoMejora: 20
   mejoras:
@@ -30,13 +30,13 @@ MonoBehaviour:
     descripcion: "Mejor alimento para razas peque\xF1as."
     tamanoObjetivo: 0
     porcentajePorNivel: 0.1
-  - nombre: "Correa (Peque\xF1o)"
-    descripcion: "Correas m\xE1s livianas para razas peque\xF1as."
-    tamanoObjetivo: 0
+  - nombre: Correa (Mediano)
+    descripcion: "Correas m\xE1s livianas para razas medianas."
+    tamanoObjetivo: 1
     porcentajePorNivel: 0.1
-  - nombre: "Collar (Peque\xF1o)"
-    descripcion: "Collares c\xF3modos para razas peque\xF1as."
-    tamanoObjetivo: 0
+  - nombre: Collar (Grande)
+    descripcion: "Collares c\xF3modos para razas grandes."
+    tamanoObjetivo: 2
     porcentajePorNivel: 0.1
   renacerRequisitoBase: 100
   renacerRequisitoMultiplicador: 1.5
@@ -56,34 +56,34 @@ MonoBehaviour:
     tamano: 0
     bibliografia: 
   - nombre: Toy Poodle
-    imagen: {fileID: 0}
-    tamano: 0
+    imagen: {fileID: 6506688986889046536, guid: ea45ee2be58a60a4facd1b39ba6b43f7, type: 3}
+    tamano: 1
     bibliografia: 
   - nombre: Corgi
-    imagen: {fileID: 0}
-    tamano: 0
+    imagen: {fileID: -7442046730555738494, guid: a73fed16ebdb17e4eb3791abc2c67f84, type: 3}
+    tamano: 1
     bibliografia: 
   - nombre: Beagle
-    imagen: {fileID: 0}
-    tamano: 0
+    imagen: {fileID: 430439530591110520, guid: e84ed2645f962314993ac79424979cf5, type: 3}
+    tamano: 1
     bibliografia: 
   - nombre: Border Collie
-    imagen: {fileID: 0}
-    tamano: 0
+    imagen: {fileID: -4507293930545016459, guid: b91716043d86baa43b78fcf07fb154c9, type: 3}
+    tamano: 2
     bibliografia: 
   - nombre: Labrador
-    imagen: {fileID: 0}
-    tamano: 0
+    imagen: {fileID: -6741803643092568874, guid: 107a744764899d94dbda6f0d318b5426, type: 3}
+    tamano: 2
     bibliografia: 
   - nombre: "Pastor Alem\xE1n"
-    imagen: {fileID: 0}
-    tamano: 0
+    imagen: {fileID: -4548137386952657100, guid: 62c99ea33c79fef4191605d86f447b53, type: 3}
+    tamano: 2
     bibliografia: 
   - nombre: Golden Retriever
-    imagen: {fileID: 0}
-    tamano: 0
+    imagen: {fileID: -1020279698869019310, guid: 4b9675a383fd3294bb2416aeb88769e0, type: 3}
+    tamano: 2
     bibliografia: 
-  - nombre: Nano
-    imagen: {fileID: 0}
-    tamano: 0
+  - nombre: Nala (DIOS)
+    imagen: {fileID: 4149360069959734688, guid: e768b6f71dcf1944a983e6d01246182c, type: 3}
+    tamano: 2
     bibliografia: 

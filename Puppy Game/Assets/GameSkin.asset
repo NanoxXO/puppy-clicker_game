@@ -19,5 +19,5 @@ MonoBehaviour:
   fondoBotonMejora2: {fileID: 4073519292367093618, guid: 87ec8a0a2d9e96f4b9b9924e33e2f55c, type: 3}
   fondoBotonMejora3: {fileID: -8418299633776641508, guid: 9c41474e786ad6d40adddffa740119ea, type: 3}
   fondoMedidorPaseo: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  rellenoMedidorPaseo: {fileID: 7725125049944165330, guid: 46834f37aedcc2d4e8ab0c87824fb7f8, type: 3}
+  rellenoMedidorPaseo: {fileID: 0}
   fondoBotonBibliografia: {fileID: -7051933360408875947, guid: 5ecc752a1e80a0d40b6f821c7f9a3ef1, type: 3}
