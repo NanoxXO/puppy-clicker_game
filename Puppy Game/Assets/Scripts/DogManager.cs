@@ -67,6 +67,19 @@ public class DogManager : MonoBehaviour
 
     public int TierMasAltoDesbloqueado => tiersDesbloqueados[tiersDesbloqueados.Count - 1].indice;
 
+    // A diferencia de TierMasAltoDesbloqueado (que incluye el próximo perro
+    // disponible para comprar aunque tengas 0 copias todavía), esto devuelve
+    // el tier más alto del que YA tenés al menos 1 comprado de verdad.
+    public int TierMasAltoObtenido()
+    {
+        for (int i = tiersDesbloqueados.Count - 1; i >= 0; i--)
+        {
+            if (tiersDesbloqueados[i].cantidadComprada > 0)
+                return tiersDesbloqueados[i].indice;
+        }
+        return 1; // todavía no compraste ningún perro
+    }
+
     // Fórmula final de producción (sección 7 del doc)
     public double ProduccionTotalPorSegundo()
     {

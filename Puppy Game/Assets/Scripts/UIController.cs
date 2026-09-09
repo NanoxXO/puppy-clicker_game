@@ -61,6 +61,12 @@ public class UIController : MonoBehaviour
     public Button botonRenacer;
     public TMP_Text textoRequisitoRenacer;
 
+    [Header("Perro del botón principal (el que se pasea)")]
+    [Tooltip("La Image que muestra al perro arriba del botón de paseo. Se actualiza sola para mostrar siempre el perro del tier MÁS ALTO que hayas desbloqueado.")]
+    public Image iconoPerroPrincipalUI;
+    [Tooltip("Opcional: el componente SaltoPerro que está en el mismo objeto que iconoPerroPrincipalUI, para que salte al hacer click. Si se deja vacío, el click sigue funcionando igual, solo que sin animación.")]
+    public SaltoPerro saltoPerroPrincipal;
+
     void Awake() => Instance = this;
 
     void Start()
@@ -170,7 +176,11 @@ public class UIController : MonoBehaviour
     }
 
     // Conectar este método al OnClick() del sprite/botón del perro principal
-    public void OnClickPaseo() => WalkClickSystem.Instance.RegistrarClick();
+    public void OnClickPaseo()
+    {
+        WalkClickSystem.Instance.RegistrarClick();
+        saltoPerroPrincipal?.Saltar();
+    }
 
     // Conectar este método al OnClick() del botón "Renacer"
     public void OnClickRenacer()
@@ -184,6 +194,16 @@ public class UIController : MonoBehaviour
         RefrescarListaPerros();
         RefrescarListaMejoras();
         RefrescarPrestigio();
+        ActualizarPerroPrincipal();
+    }
+
+    // El perro que se muestra en el botón grande siempre es el del tier MÁS
+    // ALTO que hayas desbloqueado (no el más comprado, el más avanzado en la cadena).
+    void ActualizarPerroPrincipal()
+    {
+        if (iconoPerroPrincipalUI == null) return;
+        var info = DogManager.Instance.InfoDe(DogManager.Instance.TierMasAltoObtenido());
+        if (info.imagen != null) iconoPerroPrincipalUI.sprite = info.imagen;
     }
 
     void RefrescarListaPerros()
