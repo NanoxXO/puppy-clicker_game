@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 46834f37aedcc2d4e8ab0c87824fb7f8
+guid: 41c70e8d2bbdd0945b6942ec0e0d9ea1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7725125049944165330
-    second: ps_background_0
+      213: -5263598796290802683
+    second: mainmenu buttons_0
+  - first:
+      213: 311145120006610142
+    second: mainmenu buttons_1
+  - first:
+      213: -4079646156139949888
+    second: mainmenu buttons_2
+  - first:
+      213: 7962613488476599715
+    second: mainmenu buttons_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +109,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ps_background_0
+      name: mainmenu buttons_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2048
-        height: 768
+        x: 24
+        y: 521
+        width: 305
+        height: 125
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2dbc46fad48253b60800000000000000
-      internalID: 7725125049944165330
+      spriteID: 50cb9e258c0f3f6b0800000000000000
+      internalID: -5263598796290802683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainmenu buttons_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 368
+        width: 304
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc179f86d8615400800000000000000
+      internalID: 311145120006610142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainmenu buttons_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 213
+        width: 307
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c09df59f6f2267c0800000000000000
+      internalID: -4079646156139949888
       vertices: []
       indices: 
       edges: []
@@ -125,7 +178,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6bf6dae3ceeea514fa7c5f75779b8b14
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +188,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ps_background_0: 7725125049944165330
+      mainmenu buttons_0: -5263598796290802683
+      mainmenu buttons_1: 311145120006610142
+      mainmenu buttons_2: -4079646156139949888
+      mainmenu buttons_3: 7962613488476599715
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
